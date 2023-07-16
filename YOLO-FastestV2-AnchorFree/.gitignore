@@ -1,0 +1,14 @@
+*__pycache__*
+weights
+wandb/
+weights/
+out/*
+.vscode/
+.idea/
+results*.txt
+*.onnx
+*.mp4
+*.png
+*.jpg
+*.bin
+*.param

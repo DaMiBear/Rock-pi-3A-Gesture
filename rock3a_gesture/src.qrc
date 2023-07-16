@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/checked.png</file>
+        <file>images/indeterminate.png</file>
+        <file>images/snowman.png</file>
+        <file>images/switch-close.png</file>
+        <file>images/switch-open.png</file>
+        <file>images/unchecked.png</file>
+        <file>style.qss</file>
+    </qresource>
+</RCC>

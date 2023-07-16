@@ -1,0 +1,53 @@
+
+QCheckBox {
+    font-size: 24px;
+}
+QCheckBox::indicator{
+
+    width:100px;
+    height: 100px;
+}
+QCheckBox::indicator:enabled:unchecked{
+    image: url(:/images/switch-close.png)
+}
+QCheckBox::indicator:enabled:checked{
+    image: url(:/images/switch-open.png)
+}
+
+QSpinBox {
+    font: 24px;
+}
+QSpinBox::up-button {
+    subcontrol-origin: margin;
+    subcontrol-position: center right;
+    height: 50px;
+    width: 50px;
+}
+
+QSpinBox::down-button {
+    subcontrol-origin: margin;
+    subcontrol-position: center left;
+    height: 50px;
+    width: 50px;
+}
+
+QDoubleSpinBox {
+    font: 24px;
+}
+QDoubleSpinBox::up-button {
+    subcontrol-origin: margin;
+    subcontrol-position: center right;
+    height: 50px;
+    width: 50px;
+}
+
+QDoubleSpinBox::down-button {
+    subcontrol-origin: margin;
+    subcontrol-position: center left;
+    height: 50px;
+    width: 50px;
+}
+QLabel {
+    font: 24px;
+}
+

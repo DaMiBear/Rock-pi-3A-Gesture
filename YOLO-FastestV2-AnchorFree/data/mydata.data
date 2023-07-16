@@ -1,0 +1,9 @@
+classes=1
+dataset_dir=../../datasets/coco_c430_hand_keypoints_v2
+train_images_dir=images/train
+train_json_file=keypoints_21_train.json
+val_images_dir=images/val
+val_json_file=keypoints_21_val.json
+height=352
+width=352
+anchor_num=1
